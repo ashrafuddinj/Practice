@@ -1,0 +1,231 @@
+/*font-family: 'Playfair Display', serif;*/
+*{
+	margin: 0 ;
+	padding: 0;
+}
+body{
+	font-family: 'Playfair Display', serif;
+	color: #626262;
+}
+/*header start*/
+header{
+	border:1px solid #C8CACC;
+	padding: 30px 0;
+	
+}
+.container{
+	width: 90%;
+	margin: 0 auto;
+	
+	overflow: hidden;
+}
+.logo{
+	fo
+	width: 13%;
+
+	float: left;
+}
+.logo h2{
+	 font-family: sans-serif;
+    font-size: 30px;
+    color: black;
+	width: 100%;
+}
+.menu{
+	
+	width: 70%;
+	float: right;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+}
+.menu ul li a{
+    margin: 0 30px;
+	padding: 7px 0;
+	color: #626262 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:inline-block;
+	transition: .5s;
+	border:1px solid transparent;
+}
+.menu ul li:last-child a{
+	margin-right: 0;
+}
+.menu ul li a:hover{
+	border-bottom:1px solid black;
+}
+
+/*header end*/
+
+/*banner start*/
+.banner{
+	padding: 20px;
+}
+.banner img{
+	width: 100%;
+	background-repeat:none;
+
+}
+/*banner end*/
+
+/*details start*/
+.details{
+	    padding: 40px 0;
+}
+.container2{
+	/*border:1px solid blue;*/
+	margin: 0 auto;
+	width: 80%;
+	overflow: hidden;
+	
+}
+.d-wrapper{}
+.d-h1{
+	margin: 0;
+	color:black ;
+	text-transform: uppercase;
+}
+.d-h3{
+	 margin-top: 25px;
+	 margin-bottom: 20px;
+	 font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+	
+.d-p{
+
+     margin-bottom: 20px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    color: black;
+    line-height: 25px;
+  
+}
+/*details end*/
+/*blog start*/
+.blog{
+padding-top: 40px;
+}
+.single{
+	width: 42%;
+	float: left;
+	margin-bottom: 50px;
+}
+.single:nth-child(even){
+	
+	margin-left: 16%;
+}
+.single img{
+	width: 100%;
+}
+.single p{
+	  margin-top: 10px;
+    margin-bottom: 20px;
+    color: black;
+    
+}
+.b-h3{
+	 margin-top: 25px;
+	 font-family: sans-serif;
+    font-size: 25px;
+    color: black;
+    margin-top: 25px;
+}
+.b-p{
+	 margin-bottom: 20px;
+    font-family: sans-serif;
+    word-spacing: 2px;
+    color: black;
+    line-height: 25px;
+  
+}
+/*blog end*/
+{
+	width: 80%;
+}
+.faka{
+background-color:#F0F0F0;
+	min-height: 150px;
+}
+/*extra start*/
+.extra{
+	padding: 50px;
+	padding: 40px ,0;
+}
+/*extra end*/
+/*batton start*/
+.button{
+	padding: 50px 0;
+	text-align: center;
+	/*border-radius: 1px solid red;*/
+}
+.button button{
+	font-family: sans-serif;
+    font-size: 20px;
+    color: black;
+    width: 9%;
+    height: 50px;
+ cursor: pointer;
+    border: 1px solid #626262;
+    background-color: transparent;
+    transition: .3s;
+}
+.button button:hover{
+	color: white;
+	background-color: black;
+}
+/*batton end*/
+/*foooter start*/
+footer{
+	background-color: #F0F0F0;
+}
+.foter{
+	padding: 40px 0;
+}
+.left{}
+.left span{
+	margin-top: 0px;
+	font-family: sans-serif;
+    font-size: 22px;
+	font-weight: ;
+	color:black ;
+	display: inline-block;
+}
+.right{
+	    margin-top: -36px;
+	width: 70%;
+	float: right;
+}
+.right ul{
+	float: right;
+}
+.right ul li{
+	list-style: none;
+	float: left;
+
+}
+.right ul li a{
+	 margin: 10px 20px;
+	padding: 5px 0;
+	color: #626262 ;
+	text-transform: uppercase;
+	text-decoration: none;
+	display:inline-block;
+	transition: .5s;
+	border:1px solid transparent;
+
+}
+.right ul li a:hover{
+	color: black;
+	border-bottom: 2px solid black;
+}
+
+/*foooter end*/
+
